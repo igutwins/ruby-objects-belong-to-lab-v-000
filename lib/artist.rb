@@ -12,9 +12,13 @@ class Artist
 end
 
 class Post
-
+  attr_accessor :title, :author
+  def initialize(title, author)
+  @title = title
+  @artist = artist
+  end
 end
 
 class Author
-
+attr_accessor :name
 end
