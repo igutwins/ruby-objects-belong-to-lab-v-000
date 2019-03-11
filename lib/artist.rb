@@ -8,7 +8,7 @@ end
 
 class Artist
   attr_accessor :name
-  end
+  
 end
 
 class Post
