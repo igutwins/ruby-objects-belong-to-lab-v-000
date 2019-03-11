@@ -4,7 +4,7 @@ def initialize(title, artist)
   @title = title
   @artist = artist
 end
-end 
+end
 
 class Artist
   attr_accessor :name
